@@ -16,4 +16,4 @@ gh auth status
 gh repo create config_alacritty --public --source=. --remote=origin  
 git push -u origin main
 ```
-### Second try
+#### new try
