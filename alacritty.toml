@@ -1,25 +1,24 @@
-#[general]
-#import = [
-#    #"~/.config/alacritty/themes/themes/monokai_charcoal.toml"
-#    "~/.config/alacritty/Themes/Cobalt2.tom"
-#]
+[general]
+import = [
+  "~/.config/alacritty/themes/monokai_charcoal.toml"
+]
 
 [font]
-size = 11.0
+  size = 11.0
 
 [font.normal]
-family = "AdwaitaMono Nerd Font Mono"
-style = "Regular"
+  family = "AdwaitaMono Nerd Font Mono"
+  style = "Regular"
 
 [font.bold]
-family = "AdwaitaMono Nerd Font Mono"
-style = "Bold"
+  family = "AdwaitaMono Nerd Font Mono"
+  style = "Bold"
 
 [font.italic]
-family = "AdwaitaMono Nerd Font Mono"
-style = "Italic"
+  family = "AdwaitaMono Nerd Font Mono"
+  style = "Italic"
 
 [font.bold_italic]
-family = "AdwaitaMono Nerd Font Mono"
-style = "Bold Italic"
+  family = "AdwaitaMono Nerd Font Mono"
+  style = "Bold Italic"
 
