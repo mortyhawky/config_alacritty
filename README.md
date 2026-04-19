@@ -1,5 +1,6 @@
-### Alacritty Settings
+#### Alacritty Settings
 
+#### Create Repo on the CLI
 ```bash
 git init  
 echo "# My Project" > README.md  

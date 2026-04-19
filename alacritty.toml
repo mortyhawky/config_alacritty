@@ -4,7 +4,7 @@ import = [
 ]
 
 [font]
-  size = 11.0
+  size = 10.90
 
 [font.normal]
   family = "AdwaitaMono Nerd Font Mono"
@@ -21,4 +21,3 @@ import = [
 [font.bold_italic]
   family = "AdwaitaMono Nerd Font Mono"
   style = "Bold Italic"
-
