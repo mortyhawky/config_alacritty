@@ -21,3 +21,10 @@ import = [
 [font.bold_italic]
   family = "AdwaitaMono Nerd Font Mono"
   style = "Bold Italic"
+
+# alacritty.toml
+[[keyboard.bindings]]
+key = "E"
+mods = "Shift|Control"
+chars = "\x1b[69;6u"   # CSI u-encoding for Shift+Ctrl+E
+
