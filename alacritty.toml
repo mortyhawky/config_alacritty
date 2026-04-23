@@ -8,7 +8,23 @@ import = [
   "~/.config/alacritty/themes/xterm.toml"
 ]
 
-live_config_reload = true
+[[keyboard.bindings]]
+   # Ctrl+Shift+E  --> Send CSI u-encoding for Shift+Ctrl+E
+  mods = "Control|Shift"
+   key = "E"
+    chars = "\x1b[69;6u"   # CSI u-encoding for Shift+Ctrl+E
+
+[[keyboard.bindings]]
+   # Ctrl+Shift+H  --> Open .zsh_history in nvim     
+  mods = "Control|Shift"
+   key = "H"
+    chars = "nvim $ZDOTDIR/.zsh_history\r"
+
+[[keyboard.bindings]]
+   # Ctrl+Shift+K  --> Show keyboard.bindings
+  key = "K"
+   mods = "Control|Shift"
+    chars = "grep --color -A3 \"^\\[\\[keyboard.bindings\\]\\]\" ~/.config/alacritty/alacritty.toml\r"
 
 [terminal.shell]
 program = "pwsh"
@@ -35,12 +51,12 @@ program = "pwsh"
 [window]
 padding = { x = 10, y = 10 }
 dynamic_padding = true
-startup_mode = "Windowed"
-title = "Alacritty"
+#startup_mode = "Windowed"
+title = "Alac Zsh Terminal Emulator"
 dynamic_title = true 
 decorations_theme_variant = "None"
 decorations = "Full"
-opacity = 0.9
+opacity = 0.5
 blur = true 
 
 [scrolling]
