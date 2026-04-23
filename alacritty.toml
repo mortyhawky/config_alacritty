@@ -1,14 +1,12 @@
 [general]
 import = [
-  "$XDG_CONFIG_HOME\\alacritty\\themes\\monokai_charcoal.toml"
+  "$XDG_CONFIG_HOME/alacritty/themes/monokai_charcoal.toml"
 ]
 
 live_config_reload = true
 
-
 [terminal.shell]
 program = "pwsh"
-#args = ["-l"]
 
 [font]
   size = 11
