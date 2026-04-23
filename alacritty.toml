@@ -1,10 +1,11 @@
 [general]
 import = [
-  "~/.config/alacritty/themes/tokyo_night_enhanced.toml"
-  #"~/.config/alacritty/themes/xterm.toml"
-  #"~/.config/alacritty/themes/monokai_charcoal.toml"
-  #"~/.config/alacritty/themes/tomorrow_night.toml"
   #"~/.config/alacritty/themes/acme.toml"
+  #"~/.config/alacritty/themes/monokai_charcoal.toml"
+  #"~/.config/alacritty/themes/solarized_dark.toml"
+  #"~/.config/alacritty/themes/tokyo_night_enhanced.toml"
+  #"~/.config/alacritty/themes/tomorrow_night.toml"
+  "~/.config/alacritty/themes/xterm.toml"
 ]
 
 live_config_reload = true
