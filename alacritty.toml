@@ -30,7 +30,7 @@ import = [
 program = "pwsh"
 
 [font]
-  size = 11
+  size = 10.96
 
 [font.normal]
   family = "AdwaitaMono Nerd Font Mono"
