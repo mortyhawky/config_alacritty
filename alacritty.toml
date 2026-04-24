@@ -3,7 +3,8 @@ import = [
   #"~/.config/alacritty/themes/acme.toml"
   #"~/.config/alacritty/themes/monokai_charcoal.toml"
   #"~/.config/alacritty/themes/solarized_dark.toml"
-  "~/.config/alacritty/themes/tokyo_night_enhanced.toml"
+  #"~/.config/alacritty/themes/tokyo_night_enhanced.toml"
+  "~/.config/alacritty/themes/autumn.toml"
   #"~/.config/alacritty/themes/tomorrow_night.toml"
   #~/.config/alacritty/themes/xterm.toml"
 ]
@@ -56,7 +57,7 @@ title = "Alac Zsh Terminal Emulator"
 dynamic_title = true 
 decorations_theme_variant = "None"
 decorations = "Full"
-opacity = 0.5
+opacity = 0.8
 blur = true 
 
 [scrolling]
