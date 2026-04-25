@@ -1,12 +1,11 @@
 [general]
 import = [
   #"~/.config/alacritty/themes/acme.toml"
-  #"~/.config/alacritty/themes/monokai_charcoal.toml"
+  "~/.config/alacritty/themes/monokai_charcoal.toml"
   #"~/.config/alacritty/themes/solarized_dark.toml"
   #"~/.config/alacritty/themes/tokyo_night_enhanced.toml"
-  "~/.config/alacritty/themes/autumn.toml"
+  #"~/.config/alacritty/themes/autumn.toml"
   #"~/.config/alacritty/themes/tomorrow_night.toml"
-  #~/.config/alacritty/themes/xterm.toml"
 ]
 
 [[keyboard.bindings]]
@@ -14,6 +13,7 @@ import = [
   mods = "Control|Shift"
    key = "E"
     chars = "\x1b[69;6u"   # CSI u-encoding for Shift+Ctrl+E
+    # \x1b=hex code for esc(27) [69;6u=escape sequence
 
 [[keyboard.bindings]]
    # Ctrl+Shift+H  --> Open .zsh_history in nvim     
@@ -25,7 +25,7 @@ import = [
    # Ctrl+Shift+K  --> Show keyboard.bindings
   key = "K"
    mods = "Control|Shift"
-    chars = "grep --color -A3 \"^\\[\\[keyboard.bindings\\]\\]\" ~/.config/alacritty/alacritty.toml\r"
+    chars = "grep --color -A4 \"^\\[\\[keyboard.bindings\\]\\]\" ~/.config/alacritty/alacritty.toml\r"
 
 [terminal.shell]
 program = "pwsh"
