@@ -1,7 +1,7 @@
 [general]
 import = [
   #"~/.config/alacritty/themes/acme.toml"
-  "~/.config/alacritty/themes/monokai_charcoal.toml"
+  #"~/.config/alacritty/themes/monokai_charcoal.toml"
   #"~/.config/alacritty/themes/solarized_dark.toml"
   #"~/.config/alacritty/themes/tokyo_night_enhanced.toml"
   #"~/.config/alacritty/themes/autumn.toml"
